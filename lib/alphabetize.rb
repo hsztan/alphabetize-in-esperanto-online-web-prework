@@ -6,9 +6,11 @@ def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
   arr.sort_by do |s|
-    s.split("").map do |char|
+    new_arry = s.split("").map do |char|   # ["m", "i", " ", "a"... "n"]
       esperanto.index(char)
+      binding.pry
     end
+    binding.pry
   end
 end
 
