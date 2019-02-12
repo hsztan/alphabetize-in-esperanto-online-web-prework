@@ -10,8 +10,8 @@ def alphabetize(arr)
       #esperanto.index(char)
 
     esperanto.index(s[0])
-    end
-    binding.pry
+    #end
+    #binding.pry
   end
 end
 
