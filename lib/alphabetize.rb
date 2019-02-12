@@ -8,7 +8,7 @@ def alphabetize(arr)
   arr.sort_by do |s|
     new_arry = s.split("").map do |char|   # ["m", "i", " ", "a"... "n"]
       esperanto.index(char)
-      binding.pry
+      #binding.pry
     end
     binding.pry
   end
